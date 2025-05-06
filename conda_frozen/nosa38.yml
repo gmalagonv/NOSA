@@ -1,0 +1,20 @@
+name: nosa
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8
+  - numpy>=1.16.2
+  - scipy>=1.2.1
+  - pyqtgraph=0.10.0  # Must use this older version for Qt 5.11
+  - matplotlib>=3.0.3
+  - pystackreg>=0.2.1
+  - dipy>=0.15.0
+  - qdarkstyle==2.5.4
+  - quantities>=0.12.3
+  - xlsxwriter>=1.1.5
+  - tifffile>=2019.3.8
+  - pip
+  - pip:
+    - pyqt5==5.11.3  # Exact version via pip
+    - pyabf>=2.2.8
