@@ -1,4 +1,4 @@
-name: nosa
+name: nosa38
 channels:
   - conda-forge
   - defaults
